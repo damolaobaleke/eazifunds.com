@@ -1,0 +1,865 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+@media(max-width:600px) {
+    body {
+        background: #E5E5E5;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar-logo {
+        width: 134px;
+        margin-left: -10px;
+    }
+    .sec0-body {
+        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611000490/eazifunds%202.0/Rectangle_20_svdmtv.svg");
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: cover;
+        padding-bottom: 22rem
+    }
+    h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 35px;
+        font-style: normal;
+        font-family: 'DM Sans', sans-serif;
+    }
+    .hide-line-break {
+        display: none;
+    }
+    .sec1-paragraphs {
+        color: white;
+        margin-top: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .ef-pink-underline {
+        position: absolute;
+        left: 146px;
+        top: 202px;
+        width: 192px;
+    }
+    .ef-lgn-btn {
+        border-radius: 20px;
+        width: 90px;
+        height: 36px;
+        outline: none;
+    }
+    .ef-npy-design {
+        position: absolute;
+        background-color: #EA3A60;
+        border-radius: 20px;
+        left: 88px;
+        bottom: -26px;
+    }
+    .ef-patrn-one {
+        position: absolute;
+        top: 19px;
+        width: 370px;
+        height: 291px;
+    }
+    .ef-patrn-two {
+        position: absolute;
+        top: 85px;
+        width: 112px;
+        height: 117px;
+        right: 276px;
+    }
+    .lbl-img-bg {
+        right: 76px;
+        position: absolute;
+        top: -18px;
+        z-index: 1;
+        width: 114px;
+    }
+    .ef-email-label {
+        position: absolute;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 24px;
+        top: -18px;
+        left: -111px;
+        z-index: 1;
+        color: #02223C;
+    }
+    .ef-email-input {
+        position: absolute;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 354px;
+        height: 50px;
+        right: -148px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .ef-join-btn {
+        position: absolute;
+        left: -49px;
+        top: 74px;
+        height: 55px;
+        background: #29AAF3;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        color: white;
+        width: 178px;
+    }
+    .ef-pc {
+        position: absolute;
+        top: 697px;
+        width: 247px;
+        height: 135px;
+    }
+    /*SEC1*/
+    .sec1-body {
+        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611020428/eazifunds%202.0/Rectangle_559_e6kfbw.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 4rem;
+    }
+    h6 {
+        position: absolute;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: -1.5px;
+        color: #045496;
+        left: 44px;
+    }
+    .why-ef-heading {
+        position: absolute;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: -1.5px;
+        color: #045496;
+        left: 44px;
+        top: 1170px;
+    }
+    .ef-partners {
+        position: absolute;
+        width: 381px;
+        height: auto;
+        display: none;
+    }
+    .ef-partners-resp {
+        /* position: absolute;
+        right: -19px;
+        top: -45px; */
+        position: absolute;
+        /* right: -19px; */
+        top: -38px;
+        width: 359px;
+    }
+    .coming-soon-text {
+        position: absolute;
+        font-family: 'Cookie', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        color: #000000;
+        left: 148px;
+    }
+    .why-ef {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        align-items: center;
+        letter-spacing: -1.5px;
+        color: #FF4361;
+    }
+    .why-ef-p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        align-items: center;
+        color: #045496;
+    }
+    .why-ef-img {
+        left: 124px;
+        position: relative;
+        height: 85px;
+        width: 85px;
+    }
+    /*SEC1*/
+    /*SECTION 2*/
+    .sec2-body {
+        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611162162/eazifunds%202.0/Sec2-Mobile_uojn0d.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 23.6rem;
+    }
+    .mob {
+        margin-top: 22rem;
+    }
+    h5 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -1.5px;
+        color: #045496;
+    }
+    .ef-sec2-p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 42px;
+        color: #02073E;
+    }
+    .btn-primary {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: normal;
+        background-color: #EA3A60;
+        color: #FFFFFF;
+    }
+    .ef-playstation-img {
+        position: absolute;
+        left: -60px;
+        top: -22px;
+        width: 141px;
+        height: 119px;
+        display: none;
+    }
+    .ef-bluedots-graphic_one {
+        position: absolute;
+        left: -126px;
+        width: 162px;
+        height: 264px;
+        display: none;
+    }
+    .ef-bluedots-row_two_graphic_one {
+        position: absolute;
+        width: 162px;
+        height: 264px;
+        right: 1px;
+    }
+    .ef-globe {
+        width: 376px;
+        position: absolute;
+        left: -2px;
+        top: 0px;
+    }
+    .ef-dbt-card {
+        width: 300px;
+    }
+    .ef-scan-phone {
+        width: 300px;
+        height: 300px;
+    }
+    .ef-pos {
+        position: absolute;
+        width: 306px;
+        height: auto;
+        top: 20px;
+        left: 28px;
+    }
+    /*SECTION 2*/
+    /*SECTION 3*/
+    .ef-sec3-body {
+        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611162632/eazifunds%202.0/Sec3-Mobile-body_rsa3op.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 770px;
+    }
+    .sec3-img-2 {
+        width: 364px;
+        position: absolute;
+    }
+    .ef-phone {
+        position: absolute;
+        left: 121px;
+        width: 120px;
+        top: -96px;
+    }
+    .left-plug {
+        position: absolute;
+        top: 185px;
+        width: 212.58px;
+        animation-duration: 1.5s;
+        animation-name: float-mobile;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        transform: rotate(80deg);
+        left: 92px;
+    }
+    .micro-chip {
+        position: absolute;
+        left: 90px;
+        top: 300px;
+        width: 154px;
+        height: auto;
+    }
+    .right-plug {
+        position: absolute;
+        top: -145px;
+        right: 252px;
+        width: 506px;
+        animation-duration: 1.5s;
+        animation-name: float-opposite-mobile;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        display: none;
+    }
+    .banks {
+        position: absolute;
+        width: 314px;
+        height: 237px;
+        top: -92px;
+        left: 80px;
+        display: none;
+    }
+    .ef-sec3-p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 35px;
+        font-weight: 700;
+        color: #02073E;
+        ;
+    }
+    .sec3-p_Mobile {
+        display: none;
+    }
+    .btn-secondary {
+        background-color: #1F3E76;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        height: 50px;
+        border-radius: 50px;
+        letter-spacing: -0.16px;
+        color: #FFFFFF;
+    }
+    /*SECTION 3*/
+    /*SEC4*/
+    .sec4-row {
+        margin-top: 16rem!important;
+    }
+    .lower-lbl-img-bg {
+        right: 192px;
+        /* position: absolute; */
+        top: 40px;
+        z-index: 1;
+    }
+    .lower-ef-email-label {
+        position: absolute;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        top: 12px;
+        left: 62px;
+        z-index: 1;
+        color: #02223C;
+    }
+    .lower-ef-email-input {
+        /* position: absolute; */
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        height: 80px;
+        margin-top: -24px;
+        right: -105px;
+        top: 98px;
+    }
+    .lower-ef-join-btn {
+        height: 70px;
+        background: #02223C;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        padding-left: 48px;
+        padding-right: 48px;
+        color: white;
+        width: 242px;
+    }
+    /*Footer*/
+    .footer {
+        background-color: #0A2942;
+    }
+    .footer-logo {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    ul li a {
+        font-size: 17px;
+        color: white;
+    }
+    .info {
+        color: #FFA812;
+        display: none;
+    }
+    .ef-copyright {
+        color: #B5C096;
+        display: none;
+    }
+    .ef-copyright-mobile {
+        color: #B5C096;
+        font-size: 14px;
+    }
+    .show-email {
+        display: block;
+    }
+}
+
+@media(min-width:900px) {
+    body {
+        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611000490/eazifunds%202.0/Rectangle_20_svdmtv.svg"), #E5E5E5;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: cover;
+    }
+    .sec0-body {
+        padding-bottom: 22rem
+    }
+    h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 90px;
+        font-style: normal;
+        font-family: 'DM Sans', sans-serif;
+    }
+    .sec1-paragraphs {
+        font-size: 24px;
+        color: white;
+        margin-top: 40px;
+    }
+    .ef-pink-underline {
+        position: absolute;
+        left: 460px;
+        top: 298px;
+    }
+    .ef-lgn-btn {
+        border-radius: 20px;
+        width: 90px;
+        height: 36px;
+        outline: none;
+    }
+    .ef-npy-design {
+        position: absolute;
+        background-color: #EA3A60;
+        border-radius: 20px;
+        left: 396px;
+    }
+    .ef-patrn-one {
+        position: absolute;
+        top: 400px;
+        width: 1229px;
+    }
+    .ef-patrn-two {
+        position: absolute;
+        top: 530px;
+        width: 417.47px;
+        height: 338.94px;
+        right: 56px;
+    }
+    .lbl-img-bg {
+        right: 192px;
+        position: absolute;
+        top: 40px;
+        z-index: 1;
+    }
+    .ef-email-label {
+        position: absolute;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        top: 52px;
+        left: -317px;
+        z-index: 1;
+        color: #02223C;
+    }
+    .ef-email-input {
+        position: absolute;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 525px;
+        height: 80px;
+        margin-top: -24px;
+        right: -105px;
+        top: 98px;
+    }
+    .ef-join-btn {
+        position: absolute;
+        left: 160px;
+        top: 74px;
+        height: 80px;
+        background: #29AAF3;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        padding-left: 48px;
+        padding-right: 48px;
+        color: white;
+        width: 242px;
+    }
+    .ef-pc {
+        position: absolute;
+        top: 560px;
+        width: 500px;
+        height: 421px;
+    }
+    /*SECTION 1*/
+    .sec1-body {
+        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611020428/eazifunds%202.0/Rectangle_559_e6kfbw.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        margin-top: 10rem;
+    }
+    h6 {
+        position: absolute;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: -1.5px;
+        color: #045496;
+    }
+    .ef-partners {
+        position: absolute;
+        width: 920px;
+        height: 241px;
+        top: -35px;
+        right: -104px;
+    }
+    .ef-partners-resp {
+        display: none;
+    }
+    .coming-soon-text {
+        position: absolute;
+        font-family: 'Cookie', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 50px;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        left: 300px;
+    }
+    .why-ef {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -1.5px;
+        color: #FF4361;
+    }
+    .why-ef-heading {
+        top: 1250px;
+    }
+    .why-ef-p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        align-items: center;
+        color: #045496;
+    }
+    .why-ef-img {
+        height: 85px;
+        width: 85px;
+    }
+    /*SECTION 2*/
+    .sec2-body {
+        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611053709/eazifunds%202.0/white_Rectangle_d04wph.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 3.6rem;
+    }
+    h5 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 45px;
+        letter-spacing: -1.5px;
+        color: #045496;
+    }
+    .ef-sec2-p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 42px;
+        color: #02073E;
+    }
+    .btn-primary {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: normal;
+        background-color: #EA3A60;
+        color: #FFFFFF;
+    }
+    .ef-playstation-img {
+        position: absolute;
+        left: -60px;
+        top: -22px;
+        width: 141px;
+        height: 119px;
+    }
+    .ef-bluedots-graphic_one {
+        position: absolute;
+        left: -126px;
+        width: 162px;
+        height: 264px;
+    }
+    .ef-bluedots-row_two_graphic_one {
+        position: absolute;
+        width: 162px;
+        height: 264px;
+        right: 1px;
+        display: none;
+    }
+    .ef-globe {
+        width: 358px;
+        position: absolute;
+        left: 150px;
+        top: 0px;
+    }
+    .ef-dbt-card {
+        width: 300px;
+    }
+    .ef-scan-phone {
+        width: 300px;
+        height: 300px;
+    }
+    .ef-pos {
+        position: absolute;
+        width: 390px;
+        height: 400px;
+        top: -85px;
+    }
+    /*SECTION MID*/
+    .ef-secMid {
+        background: #E5E5E5;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 3rem;
+    }
+    /*SECTION THREE*/
+    .ef-sec3-body {
+        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611064778/eazifunds%202.0/Grey_Rectangle_cpqwdv.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 770px;
+    }
+    .sec3-img-2 {
+        width: 590px;
+        position: absolute;
+        top: -105px;
+    }
+    .ef-phone {
+        position: absolute;
+        top: -96px;
+        width: 132px;
+    }
+    .left-plug {
+        position: absolute;
+        top: -96px;
+        left: 154px;
+        width: 426.58px;
+        animation-duration: 1.5s;
+        animation-name: float;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    .right-plug {
+        position: absolute;
+        top: -145px;
+        right: 252px;
+        width: 506px;
+        animation-duration: 1.5s;
+        animation-name: float-opposite;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    .micro-chip {
+        position: absolute;
+        left: 30px;
+        top: -66px;
+        width: 179px;
+        height: 208.44px;
+    }
+    .banks {
+        position: absolute;
+        width: 314px;
+        height: 237px;
+        top: -92px;
+        left: 80px;
+    }
+    .ef-sec3-p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 42px;
+        font-weight: 700;
+        color: #1F3E76;
+    }
+    .btn-secondary {
+        background-color: #02073E;
+        color: white;
+    }
+    /*SECTION FOUR*/
+    .lower-lbl-img-bg {
+        right: 192px;
+        /* position: absolute; */
+        top: 40px;
+        z-index: 1;
+    }
+    .lower-ef-email-label {
+        position: absolute;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        top: 12px;
+        left: 62px;
+        z-index: 1;
+        color: #02223C;
+    }
+    .lower-ef-email-input {
+        /* position: absolute; */
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 525px;
+        height: 80px;
+        margin-top: -24px;
+        right: -105px;
+        top: 98px;
+    }
+    .lower-ef-join-btn {
+        position: absolute;
+        left: 180px;
+        top: 34px;
+        height: 80px;
+        background: #02223C;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        padding-left: 48px;
+        padding-right: 48px;
+        color: white;
+        width: 242px;
+    }
+    /*Footer*/
+    .footer {
+        background-color: #0A2942;
+    }
+    .footer-logo {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    ul li a {
+        color: white;
+    }
+    .info {
+        color: #FFA812;
+    }
+    .ef-copyright {
+        color: #B5C096;
+    }
+    .ef-copyright-mobile {
+        color: #B5C096;
+        display: none;
+    }
+    .show-email {
+        display: none;
+    }
+}
+
+
+/*Animations*/
+
+@keyframes float-mobile {
+    from {
+        transform: rotate(80deg) translateX(0);
+    }
+    to {
+        transform: rotate(80deg) translateX(10px);
+    }
+}
+
+@keyframes float-mobile-opposite {
+    from {
+        transform: rotate(80deg) translateX(0);
+    }
+    to {
+        transform: rotate(80deg) translateX(-10px);
+    }
+}
+
+@keyframes float {
+    /* 0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    } */
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes float-opposite {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-10px);
+    }
+}
