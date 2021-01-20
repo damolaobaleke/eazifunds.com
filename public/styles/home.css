@@ -279,7 +279,10 @@
         background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611162632/eazifunds%202.0/Sec3-Mobile-body_rsa3op.svg");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 770px;
+        height: 1480px;
+    }
+    .sec3-row {
+        margin-top: 48rem;
     }
     .sec3-img-2 {
         width: 364px;
@@ -311,22 +314,20 @@
     }
     .right-plug {
         position: absolute;
-        top: -145px;
-        right: 252px;
-        width: 506px;
+        top: 380px;
+        width: 234px;
         animation-duration: 1.5s;
-        animation-name: float-opposite-mobile;
+        animation-name: float-mobile-opposite;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
-        display: none;
+        transform: rotate(45deg);
     }
     .banks {
         position: absolute;
-        width: 314px;
+        width: 200px;
         height: 237px;
-        top: -92px;
+        top: 540px;
         left: 80px;
-        display: none;
     }
     .ef-sec3-p {
         font-family: 'DM Sans';
@@ -354,7 +355,7 @@
     /*SECTION 3*/
     /*SEC4*/
     .sec4-row {
-        margin-top: 16rem!important;
+        margin-top: 10rem!important;
     }
     .lower-lbl-img-bg {
         right: 192px;
@@ -682,6 +683,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 770px;
+    }
+    .sec3-row {
+        margin-top: 20rem;
     }
     .sec3-img-2 {
         width: 590px;

@@ -1,8 +1,11 @@
 var express = require('express')
 let router = express.Router()
 
-const { displayHome } = require('../../controllers/Home/HomeController')
+const { displayHome, createUser } = require('../../controllers/Home/HomeController')
+let middleware = require('../../middlewares/middlewares')
 
 router.get("/", displayHome)
+
+router.post("/register", createUser)
 
 module.exports = router;

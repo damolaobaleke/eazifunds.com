@@ -1,11 +1,15 @@
-require('dotenv')
+require('dotenv').config()
 const express = require('express')
 let passport = require('passport')
 let bodyParser = require('body-parser')
 let flash = require('connect-flash')
+let mongoose = require('mongoose')
 let methodOverride = require('method-override')
 
 var app = express()
+
+//mongodb connection
+mongoose.connect('mongodb://localhost/eazifunds_pay', { useNewUrlParser: true, useUnifiedTopology: true })
 
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: true }))

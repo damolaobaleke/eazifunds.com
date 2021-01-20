@@ -1,3 +1,24 @@
+<div class="container-fluid">
+    <%if(errorMessage && errorMessage.length > 0){%>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="alert alert-danger" role="alert">
+                    <%=errorMessage%>
+                </div>
+            </div>
+        </div>
+        <%}%>
+            <%if(successMessage && successMessage.length > 0){%>
+                <div class="row mt-1" style="">
+                    <div class="col-md-12">
+                        <div class="alert alert-success text-center" role="alert">
+                            <%=successMessage%>
+                        </div>
+                    </div>
+                </div>
+                <%}%>
+</div>
+
 <nav class="navbar navbar-expand-md mt-3">
     <a class="navbar-brand" href="/"><img class="navbar-logo" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1610998534/eazifunds%202.0/Logo_eazifunds._mllwoe.svg" alt=""></a>
 
@@ -28,25 +49,4 @@
 
         </div>
     </div>
-</div>
-
-<div class="container">
-    <%if(errorMessage && errorMessage.length > 0){%>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="alert alert-danger mt-5" role="alert">
-                    <%=errorMessage%>
-                </div>
-            </div>
-        </div>
-        <%}%>
-            <%if(successMessage && successMessage.length > 0){%>
-                <div class="row mt-1" style="">
-                    <div class="col-md-4">
-                        <div class="alert alert-success text-center mt-5" role="alert">
-                            <%=successMessage%>
-                        </div>
-                    </div>
-                </div>
-                <%}%>
 </div>

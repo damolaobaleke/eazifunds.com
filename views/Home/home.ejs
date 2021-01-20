@@ -40,12 +40,12 @@
                 <img class="ef-patrn-one" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611008124/eazifunds%202.0/pattern_moarl2.svg" alt="">
                 <img class="ef-patrn-two" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611019846/eazifunds%202.0/pattern_1_ef9j0x.svg" alt="">
 
-                <form action="#" method="post">
+                <form action="/register" method="POST">
                     <div class="row mt-5">
                         <div class="col-md-6">
                             <img class="lbl-img-bg" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611010619/eazifunds%202.0/Rectangle_9_gp1yjg.svg" alt="">
                             <label class="ef-email-label" for="email">Email Address</label>
-                            <input class="form-control ef-email-input" type="email" name="email" id="email" placeholder="Enter your email address">
+                            <input class="form-control ef-email-input" type="email" name="user[email]" id="email" placeholder="Enter your email address">
                         </div>
 
                         <div class="col-md-6">
@@ -150,7 +150,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <img class="micro-chip" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611064779/eazifunds%202.0/Microchip_ds4qxg.svg" alt="">
+                    <img class="micro-chip" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611172170/eazifunds%202.0/Group_327_jxxebn.svg" alt="">
                 </div>
                 <div class="col-md-4">
                     <img class="right-plug" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611064777/eazifunds%202.0/Plug_right_f5hmsl.svg" alt="">
@@ -158,7 +158,7 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center" style="margin-top: 20rem;">
+            <div class="row justify-content-center sec3-row" style="">
                 <div class="col-md-6">
                     <h5 class="ml-3 ml-md-0">A place for all kinds<br> of businesses to<br> grow</h5>
                     <p class="ef-sec3-p ml-3 ml-md-0"><span class="sec3-p_Mobile">Collect and manage all payments using our,<br class="hide-line-break">dashboard. Have full visibility on all your transactions.<br class="hide-line-break"></span> Building and running a business is already
@@ -183,12 +183,12 @@
 
                 <p class="ef-sec3-p text-center text-md-left">Eazifunds is in private beta. Join our waitlist to try the platform.</p>
 
-                <form action="#" method="post">
+                <form action="/register" method="POST">
                     <div class="row my-5">
                         <div class="col-md-6">
                             <img class="lower-lbl-img-bg" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611010619/eazifunds%202.0/Rectangle_9_gp1yjg.svg" alt="">
                             <label class="lower-ef-email-label" for="email">Email Address</label>
-                            <input class="form-control lower-ef-email-input" type="email" name="email" id="email" placeholder="Enter your email address">
+                            <input class="form-control lower-ef-email-input" type="email" name="user[email]" id="email" placeholder="Enter your email address">
                         </div>
 
                         <div class="col-md-6">
@@ -205,7 +205,7 @@
     </div>
 
 
-
+    <script src="/scripts/Home.js"></script>
 
     <%-include('../partials/Footer')%>
 </body>
